@@ -1,0 +1,35 @@
+{
+  "case_id": "BR8-e83161c9",
+  "investigator": "BR8_Analyst",
+  "target_type": "email",
+  "target": "ksalhn2@gmail.com",
+  "results": {
+    "breaches": [],
+    "domain_reputation": {
+      "domain": "gmail.com",
+      "reputation": "unknown"
+    }
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T13:22:13.399983Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T13:22:13.399983Z",
+      "desc": "Collected breaches"
+    },
+    {
+      "time": "2026-07-21T13:22:13.399983Z",
+      "desc": "Collected domain_reputation"
+    },
+    {
+      "time": "2026-07-21T13:22:13.400220Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

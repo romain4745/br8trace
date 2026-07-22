@@ -1,0 +1,35 @@
+{
+  "case_id": "BR8-0c02743c",
+  "investigator": "tr",
+  "target_type": "email",
+  "target": "cyumbahc2018@gmail.com",
+  "results": {
+    "breaches": [],
+    "domain_reputation": {
+      "domain": "gmail.com",
+      "reputation": "unknown"
+    }
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-22T09:47:46.487986Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-22T09:47:46.487986Z",
+      "desc": "Collected breaches"
+    },
+    {
+      "time": "2026-07-22T09:47:46.487986Z",
+      "desc": "Collected domain_reputation"
+    },
+    {
+      "time": "2026-07-22T09:47:46.488024Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "case_id": "BR8-c3ced21a",
+  "investigator": "BR8_Analyst",
+  "target_type": "photo",
+  "target": "exit",
+  "results": [
+    {
+      "type": "image_source",
+      "source": "file",
+      "path": "exit",
+      "timestamp": "2026-07-21T13:16:18.707112Z"
+    },
+    {
+      "platform": "google_images",
+      "service": "Reverse Image Search",
+      "search_url": "https://www.google.com/searchbyimage",
+      "matches_found": true,
+      "estimated_matches": 847,
+      "similar_images": 1203,
+      "status": "success"
+    },
+    {
+      "platform": "yandex_images",
+      "service": "Reverse Image Search",
+      "search_url": "https://yandex.com/images/search",
+      "matches_found": true,
+      "estimated_matches": 523,
+      "status": "success"
+    },
+    {
+      "platform": "tineye",
+      "service": "Reverse Image Search",
+      "search_url": "https://tineye.com/search",
+      "matches_found": true,
+      "estimated_matches": 156,
+      "oldest_match": "2019-03-15",
+      "newest_match": "2025-11-28",
+      "status": "success"
+    },
+    {
+      "platform": "bing_visual",
+      "service": "Visual Search",
+      "search_url": "https://www.bing.com/images/search",
+      "matches_found": true,
+      "estimated_matches": 692,
+      "related_searches": [
+        "person",
+        "profile photo",
+        "social media"
+      ],
+      "status": "success"
+    },
+    {
+      "type": "facial_analysis",
+      "faces_detected": 1,
+      "confidence": 0.94,
+      "attributes": {
+        "gender": "male",
+        "age_range": "25-35",
+        "emotion": "neutral",
+        "glasses": false,
+        "facial_hair": true
+      },
+      "face_quality": "high",
+      "face_landmarks": 68
+    },
+    {
+      "type": "facial_recognition",
+      "database_matches": 3,
+      "matches": [
+        {
+          "source": "social_media",
+          "platform": "linkedin",
+          "confidence": 0.87,
+          "match_type": "possible"
+        },
+        {
+          "source": "public_records",
+          "platform": "gravatar",
+          "confidence": 0.92,
+          "match_type": "likely"
+        },
+        {
+          "source": "social_media",
+          "platform": "facebook",
+          "confidence": 0.78,
+          "match_type": "possible"
+        }
+      ]
+    },
+    {
+      "type": "exif_data",
+      "found": true,
+      "camera_make": "Apple",
+      "camera_model": "iPhone 13 Pro",
+      "date_taken": "2025-11-15 14:23:17",
+      "gps_coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "location": "San Francisco, CA"
+      },
+      "image_dimensions": {
+        "width": 3024,
+        "height": 4032
+      },
+      "software": "iOS 17.1.2",
+      "orientation": "portrait"
+    },
+    {
+      "type": "social_media_match",
+      "platform": "instagram",
+      "profile_found": true,
+      "profile_url": "https://instagram.com/user_profile",
+      "match_confidence": 0.89,
+      "profile_image_match": true,
+      "followers": 1247,
+      "posts": 342
+    },
+    {
+      "type": "social_media_match",
+      "platform": "facebook",
+      "profile_found": true,
+      "profile_url": "https://facebook.com/user.profile",
+      "match_confidence": 0.82,
+      "profile_image_match": true,
+      "friends_visible": false
+    },
+    {
+      "type": "social_media_match",
+      "platform": "twitter",
+      "profile_found": true,
+      "profile_url": "https://twitter.com/userprofile",
+      "match_confidence": 0.75,
+      "profile_image_match": true,
+      "verified": false,
+      "followers": 523
+    }
+  ],
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T13:16:18.707476Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T13:16:18.707476Z",
+      "desc": "Found 11 items"
+    },
+    {
+      "time": "2026-07-21T13:16:18.707503Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

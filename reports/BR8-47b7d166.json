@@ -1,0 +1,673 @@
+{
+  "case_id": "BR8-47b7d166",
+  "investigator": "BR8_Analyst",
+  "target_type": "username",
+  "target": "kisitukirabo",
+  "results": [
+    {
+      "platform": "discord",
+      "exists": true,
+      "url": "https://discord.com/users/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:18.576381Z"
+    },
+    {
+      "platform": "instagram",
+      "exists": true,
+      "url": "https://www.instagram.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:18.791562Z"
+    },
+    {
+      "platform": "vimeo",
+      "exists": false,
+      "url": "https://vimeo.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:18.820863Z"
+    },
+    {
+      "platform": "linkedin",
+      "exists": false,
+      "url": "https://www.linkedin.com/in/kisitukirabo",
+      "status_code": 405,
+      "timestamp": "2026-07-21T14:32:18.848283Z"
+    },
+    {
+      "platform": "twitch",
+      "exists": false,
+      "url": "https://www.twitch.tv/kisitukirabo",
+      "status_code": 405,
+      "timestamp": "2026-07-21T14:32:18.853643Z"
+    },
+    {
+      "platform": "github",
+      "exists": false,
+      "url": "https://github.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:18.868033Z"
+    },
+    {
+      "platform": "facebook",
+      "exists": true,
+      "url": "https://www.facebook.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:18.883732Z"
+    },
+    {
+      "platform": "telegram",
+      "exists": true,
+      "url": "https://t.me/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:18.908952Z"
+    },
+    {
+      "platform": "dribbble",
+      "exists": false,
+      "url": "https://dribbble.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:18.943720Z"
+    },
+    {
+      "platform": "youtube",
+      "exists": true,
+      "url": "https://www.youtube.com/@kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:18.984985Z"
+    },
+    {
+      "platform": "spotify",
+      "exists": false,
+      "url": "https://open.spotify.com/user/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.068376Z"
+    },
+    {
+      "platform": "tiktok",
+      "exists": true,
+      "url": "https://www.tiktok.com/404?fromUrl=/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.103060Z"
+    },
+    {
+      "platform": "soundcloud",
+      "exists": false,
+      "url": "https://soundcloud.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.112295Z"
+    },
+    {
+      "platform": "steam",
+      "exists": true,
+      "url": "https://steamcommunity.com/id/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.113043Z"
+    },
+    {
+      "platform": "sourceforge",
+      "exists": false,
+      "url": "https://sourceforge.net/u/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:19.272474Z"
+    },
+    {
+      "platform": "behance",
+      "exists": false,
+      "url": "https://www.behance.net/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:19.345156Z"
+    },
+    {
+      "platform": "x",
+      "exists": true,
+      "url": "https://x.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.371242Z"
+    },
+    {
+      "platform": "snapchat",
+      "exists": false,
+      "url": "https://www.snapchat.com/@kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.485292Z"
+    },
+    {
+      "platform": "tumblr",
+      "exists": false,
+      "url": "https://kisitukirabo.tumblr.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.487748Z"
+    },
+    {
+      "platform": "twitter",
+      "exists": true,
+      "url": "https://twitter.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.494226Z"
+    },
+    {
+      "platform": "pinterest",
+      "exists": true,
+      "url": "https://www.pinterest.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.522119Z"
+    },
+    {
+      "platform": "pastebin",
+      "exists": false,
+      "url": "https://pastebin.com/u/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.550157Z"
+    },
+    {
+      "platform": "codepen",
+      "exists": false,
+      "url": "https://codepen.io/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:19.903823Z"
+    },
+    {
+      "platform": "hackernews",
+      "exists": false,
+      "url": "https://news.ycombinator.com/user?id=kisitukirabo",
+      "status_code": 405,
+      "timestamp": "2026-07-21T14:32:19.905665Z"
+    },
+    {
+      "platform": "hashnode",
+      "exists": true,
+      "url": "https://hashnode.com/@kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:19.922038Z"
+    },
+    {
+      "platform": "gitlab",
+      "exists": false,
+      "url": "https://gitlab.com/users/sign_in",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:19.932674Z"
+    },
+    {
+      "platform": "wellfound",
+      "exists": false,
+      "url": "https://wellfound.com/u/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:20.074357Z"
+    },
+    {
+      "platform": "keybase",
+      "exists": false,
+      "url": "https://keybase.io/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.149038Z"
+    },
+    {
+      "platform": "devto",
+      "exists": false,
+      "url": "https://dev.to/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.163583Z"
+    },
+    {
+      "platform": "indiehackers",
+      "exists": true,
+      "url": "https://www.indiehackers.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:20.199139Z"
+    },
+    {
+      "platform": "slideshare",
+      "exists": true,
+      "url": "https://www.slideshare.net/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:20.204804Z"
+    },
+    {
+      "platform": "producthunt",
+      "exists": false,
+      "url": "https://www.producthunt.com/@kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.241099Z"
+    },
+    {
+      "platform": "replit",
+      "exists": true,
+      "url": "https://replit.com/login?source=root-profile&goto=%2F%40kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:20.264091Z"
+    },
+    {
+      "platform": "bitbucket",
+      "exists": false,
+      "url": "https://bitbucket.org/kisitukirabo/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.287684Z"
+    },
+    {
+      "platform": "angelco",
+      "exists": false,
+      "url": "https://wellfound.com/u/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:20.298642Z"
+    },
+    {
+      "platform": "flickr",
+      "exists": false,
+      "url": "https://www.flickr.com/people/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.363785Z"
+    },
+    {
+      "platform": "scribd",
+      "exists": true,
+      "url": "https://www.scribd.com/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:20.604320Z"
+    },
+    {
+      "platform": "letterboxd",
+      "exists": false,
+      "url": "https://letterboxd.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.608718Z"
+    },
+    {
+      "platform": "weworkremotely",
+      "exists": false,
+      "url": "https://weworkremotely.com/people/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.639740Z"
+    },
+    {
+      "platform": "issuu",
+      "exists": false,
+      "url": "https://issuu.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.648253Z"
+    },
+    {
+      "platform": "goodreads",
+      "exists": false,
+      "url": "https://www.goodreads.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.728288Z"
+    },
+    {
+      "platform": "gravatar",
+      "exists": false,
+      "url": "https://gravatar.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.860326Z"
+    },
+    {
+      "platform": "eventbrite",
+      "exists": false,
+      "url": "https://www.eventbrite.com/people/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.903612Z"
+    },
+    {
+      "platform": "quora",
+      "exists": false,
+      "url": "https://www.quora.com/profile/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:20.943291Z"
+    },
+    {
+      "platform": "codesandbox",
+      "exists": false,
+      "url": "https://codesandbox.io/u/kisitukirabo",
+      "status_code": 403,
+      "timestamp": "2026-07-21T14:32:20.946923Z"
+    },
+    {
+      "platform": "jsfiddle",
+      "exists": false,
+      "url": "https://jsfiddle.net/user/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.951306Z"
+    },
+    {
+      "platform": "stackoverflow",
+      "exists": false,
+      "url": "https://stackoverflow.com/users/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:20.993743Z"
+    },
+    {
+      "platform": "patreon",
+      "exists": false,
+      "url": "https://www.patreon.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.032776Z"
+    },
+    {
+      "platform": "bandcamp",
+      "exists": false,
+      "url": "https://bandcamp.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.089116Z"
+    },
+    {
+      "platform": "lastfm",
+      "exists": false,
+      "url": "https://www.last.fm/user/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.112971Z"
+    },
+    {
+      "platform": "buymeacoffee",
+      "exists": false,
+      "url": "https://buymeacoffee.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.209146Z"
+    },
+    {
+      "platform": "dockerhub",
+      "exists": false,
+      "url": "https://hub.docker.com/u/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.445216Z"
+    },
+    {
+      "platform": "substack",
+      "exists": true,
+      "url": "https://substack.com/search/kisitukirabo?searching=profile",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.452088Z"
+    },
+    {
+      "platform": "mixcloud",
+      "exists": true,
+      "url": "https://www.mixcloud.com/kisitukirabo/",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.462651Z"
+    },
+    {
+      "platform": "heroku",
+      "exists": true,
+      "url": "https://dashboard.heroku.com/apps/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.515588Z"
+    },
+    {
+      "platform": "netlify",
+      "exists": true,
+      "url": "https://app.netlify.com/teams/kisitukirabo/sites",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.520626Z"
+    },
+    {
+      "platform": "vercel",
+      "exists": true,
+      "url": "https://vercel.com/login?next=%2Fkisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.586317Z"
+    },
+    {
+      "platform": "ko-fi",
+      "exists": true,
+      "url": "https://ko-fi.com/",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.610099Z"
+    },
+    {
+      "platform": "pypi",
+      "exists": true,
+      "url": "https://pypi.org/user/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:21.628167Z"
+    },
+    {
+      "platform": "bigcommerce",
+      "exists": false,
+      "url": "https://kisitukirabo.bigcommerce.com",
+      "status_code": null,
+      "error": "Connection Error",
+      "timestamp": "2026-07-21T14:32:21.637057Z"
+    },
+    {
+      "platform": "npmjs",
+      "exists": false,
+      "url": "https://www.npmjs.com/~kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.678263Z"
+    },
+    {
+      "platform": "rubygems",
+      "exists": false,
+      "url": "https://rubygems.org/profiles/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.812150Z"
+    },
+    {
+      "platform": "cratesio",
+      "exists": false,
+      "url": "https://crates.io/users/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:21.925120Z"
+    },
+    {
+      "platform": "meetup",
+      "exists": true,
+      "url": "https://www.meetup.com/login/?returnUri=https%3A%2F%2Fwww.meetup.com%2Fmembers%2Fkisitukirabo%2F",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:22.064559Z"
+    },
+    {
+      "platform": "drupal",
+      "exists": true,
+      "url": "https://www.drupal.org/u/kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:22.089223Z"
+    },
+    {
+      "platform": "glitch",
+      "exists": true,
+      "url": "https://blog.glitch.com",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:22.206583Z"
+    },
+    {
+      "platform": "wordpress",
+      "exists": false,
+      "url": "https://profiles.wordpress.org/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.276356Z"
+    },
+    {
+      "platform": "wix",
+      "exists": false,
+      "url": "https://kisitukirabo.wixsite.com/mysite",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.546301Z"
+    },
+    {
+      "platform": "composer",
+      "exists": false,
+      "url": "https://packagist.org/users/kisitukirabo/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.562474Z"
+    },
+    {
+      "platform": "shopify",
+      "exists": false,
+      "url": "https://kisitukirabo.myshopify.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.609694Z"
+    },
+    {
+      "platform": "woocommerce",
+      "exists": false,
+      "url": "https://woocommerce.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.707289Z"
+    },
+    {
+      "platform": "weebly",
+      "exists": false,
+      "url": "https://kisitukirabo.weebly.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.754813Z"
+    },
+    {
+      "platform": "joomla",
+      "exists": false,
+      "url": "https://community.joomla.org/user/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.941201Z"
+    },
+    {
+      "platform": "squarespace",
+      "exists": false,
+      "url": "https://kisitukirabo.squarespace.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:22.961572Z"
+    },
+    {
+      "platform": "carrd",
+      "exists": false,
+      "url": "https://kisitukirabo.carrd.co/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:23.107595Z"
+    },
+    {
+      "platform": "medium",
+      "exists": true,
+      "url": "https://medium.com/@kisitukirabo",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:23.184160Z"
+    },
+    {
+      "platform": "bio",
+      "exists": false,
+      "url": "https://bio.site/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:23.213330Z"
+    },
+    {
+      "platform": "aboutme",
+      "exists": false,
+      "url": "https://about.me/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:23.226639Z"
+    },
+    {
+      "platform": "ghost",
+      "exists": false,
+      "url": "https://kisitukirabo.ghost.io/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:23.276595Z"
+    },
+    {
+      "platform": "blogger",
+      "exists": false,
+      "url": "https://kisitukirabo.blogspot.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:23.389121Z"
+    },
+    {
+      "platform": "nomadlist",
+      "exists": true,
+      "url": "https://nomads.com/search/lithuania",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:23.502434Z"
+    },
+    {
+      "platform": "webflow",
+      "exists": true,
+      "url": "https://webflow.com/login?r=https%3A%2F%2Fwebflow.com%2Fdesign%2Fkisitukirabo&m=WW91IGhhdmUgYmVlbiBsb2dnZWQgb3V0LiBQbGVhc2Ugc2lnbiBiYWNrIGluIHRvIGNvbnRpbnVlLg%3D%3D",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:23.786383Z"
+    },
+    {
+      "platform": "packagist",
+      "exists": true,
+      "url": "https://packagist.org/search/?q=kisitukirabo&reason=vendor_not_found",
+      "status_code": 200,
+      "timestamp": "2026-07-21T14:32:24.235733Z"
+    },
+    {
+      "platform": "linktree",
+      "exists": false,
+      "url": "https://linktr.ee/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:24.363349Z"
+    },
+    {
+      "platform": "reddit",
+      "exists": false,
+      "url": "https://www.reddit.com/user/kisitukirabo",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T14:32:28.496731Z"
+    },
+    {
+      "platform": "magento",
+      "exists": false,
+      "url": "https://commercemarketplace.adobe.com/kisitukirabo",
+      "status_code": 404,
+      "timestamp": "2026-07-21T14:32:32.477450Z"
+    },
+    {
+      "service": "tunnels",
+      "url": "http://62gs2n5ydnyffzfy.onion",
+      "username": "kisitukirabo",
+      "found": false,
+      "metadata": {
+        "domain": "http://62gs2n5ydnyffzfy.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T14:32:32.487433Z"
+      }
+    },
+    {
+      "service": "elude",
+      "url": "http://eludemaillhqfkh5.onion",
+      "username": "kisitukirabo",
+      "found": false,
+      "metadata": {
+        "domain": "http://eludemaillhqfkh5.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T14:32:32.488309Z"
+      }
+    },
+    {
+      "type": "darkweb_analysis",
+      "username": "kisitukirabo",
+      "services_checked": 2,
+      "services_found": 0,
+      "timestamp": "2026-07-21T14:32:32.488380Z"
+    },
+    {
+      "type": "username_summary",
+      "username": "kisitukirabo",
+      "clearnet_platforms_checked": 86,
+      "clearnet_profiles_found": 29,
+      "darkweb_checked": true,
+      "start_time": "2026-07-21T14:32:18.093698Z",
+      "end_time": "2026-07-21T14:32:32.488539Z",
+      "total_results": 89
+    }
+  ],
+  "reputation": {
+    "score": 30,
+    "factors": [
+      "social_hits_29"
+    ]
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T14:32:32.488680Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T14:32:32.488680Z",
+      "desc": "Found 90 items"
+    },
+    {
+      "time": "2026-07-21T14:32:32.488691Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

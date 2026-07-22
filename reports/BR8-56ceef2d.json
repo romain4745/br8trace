@@ -1,0 +1,83 @@
+{
+  "case_id": "BR8-56ceef2d",
+  "investigator": "tr",
+  "target_type": "satellite",
+  "target": "67.8897,-133.4567",
+  "results": [
+    {
+      "type": "satellite_imagery",
+      "item_type": "PSScene",
+      "item_id": "simulated_001",
+      "acquired": "2026-07-21T12:52:15.007468Z",
+      "cloud_cover": 0.05,
+      "coordinates": [
+        -133.4567,
+        67.8897
+      ],
+      "resolution_meters": 3,
+      "bands": [
+        "Red",
+        "Green",
+        "Blue",
+        "NIR"
+      ],
+      "status": "simulated"
+    },
+    {
+      "type": "satellite_imagery",
+      "item_type": "SkySatScene",
+      "item_id": "simulated_002",
+      "acquired": "2026-07-21T12:52:15.008086Z",
+      "cloud_cover": 0.12,
+      "coordinates": [
+        -133.4567,
+        67.8897
+      ],
+      "resolution_meters": 0.5,
+      "bands": [
+        "Red",
+        "Green",
+        "Blue",
+        "Panchromatic"
+      ],
+      "status": "simulated"
+    },
+    {
+      "type": "location_analysis",
+      "coordinates": {
+        "latitude": 67.8897,
+        "longitude": -133.4567
+      },
+      "timestamp": "2026-07-21T12:52:15.008103Z",
+      "available_imagery": 2,
+      "nearby_landmarks": [
+        {
+          "type": "water_body",
+          "distance_km": 2.3
+        },
+        {
+          "type": "urban_area",
+          "distance_km": 1.5
+        }
+      ]
+    }
+  ],
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T12:52:15.009052Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T12:52:15.009052Z",
+      "desc": "Found 3 items"
+    },
+    {
+      "time": "2026-07-21T12:52:15.009065Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-22T11:49:01.891963",
+    "report_id": "BR8-22962604",
+    "investigator": "trw",
+    "target_display_name": "Email: cyumbahc2018@gmail.com",
+    "target_details": {
+      "Address": "cyumbahc2018@gmail.com"
+    }
+  },
+  "original_data": {
+    "case_id": "BR8-22962604",
+    "investigator": "trw",
+    "target_type": "email",
+    "target": "cyumbahc2018@gmail.com",
+    "results": {
+      "email": "cyumbahc2018@gmail.com",
+      "domain": "gmail.com",
+      "timestamp": "2026-07-22T11:49:01.885545",
+      "registration_check": {
+        "total_platforms_checked": 30,
+        "platforms_registered": 6,
+        "registered_on": [
+          "Facebook",
+          "Tumblr",
+          "GitLab",
+          "PayPal",
+          "Steam",
+          "BitcoinTalk"
+        ],
+        "platforms_by_type": {
+          "social_media": [
+            {
+              "platform": "Instagram",
+              "type": "social_media",
+              "registered": false,
+              "status_code": 429,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Twitter/X",
+              "type": "social_media",
+              "registered": false,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Facebook",
+              "type": "social_media",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Tumblr",
+              "type": "social_media",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "LinkedIn",
+              "type": "social_media",
+              "registered": false,
+              "error": "('Connection broken: IncompleteRead(86016 bytes read, 12525 more expected)', IncompleteRead(86016 by"
+            },
+            {
+              "platform": "Pinterest",
+              "type": "social_media",
+              "registered": false,
+              "status_code": 403,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "TikTok",
+              "type": "social_media",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Snapchat",
+              "type": "social_media",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Reddit",
+              "type": "social_media",
+              "registered": false,
+              "error": "timeout"
+            }
+          ],
+          "development": [
+            {
+              "platform": "GitHub",
+              "type": "development",
+              "registered": false,
+              "status_code": 422,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "GitLab",
+              "type": "development",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "entertainment": [
+            {
+              "platform": "Spotify",
+              "type": "entertainment",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "communication": [
+            {
+              "platform": "Discord",
+              "type": "communication",
+              "registered": false,
+              "status_code": 400,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "ecommerce": [
+            {
+              "platform": "Etsy",
+              "type": "ecommerce",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Shopify",
+              "type": "ecommerce",
+              "registered": false,
+              "status_code": 405,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "eBay",
+              "type": "ecommerce",
+              "registered": false,
+              "status_code": 307,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Amazon",
+              "type": "ecommerce",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "gaming": [
+            {
+              "platform": "Epic Games",
+              "type": "gaming",
+              "registered": false,
+              "status_code": 409,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Roblox",
+              "type": "gaming",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Steam",
+              "type": "gaming",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "professional": [
+            {
+              "platform": "Medium",
+              "type": "professional",
+              "registered": false,
+              "status_code": 400,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Stack Overflow",
+              "type": "professional",
+              "registered": false,
+              "status_code": 403,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Quora",
+              "type": "professional",
+              "registered": false,
+              "status_code": 403,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "travel": [
+            {
+              "platform": "Airbnb",
+              "type": "travel",
+              "registered": false,
+              "status_code": 404,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "Booking.com",
+              "type": "travel",
+              "registered": false,
+              "status_code": 405,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "transport": [
+            {
+              "platform": "Uber",
+              "type": "transport",
+              "registered": false,
+              "status_code": 403,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "payment": [
+            {
+              "platform": "PayPal",
+              "type": "payment",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            }
+          ],
+          "creator": [
+            {
+              "platform": "Patreon",
+              "type": "creator",
+              "registered": false,
+              "status_code": 403,
+              "check_method": "email_registration_check"
+            },
+            {
+              "platform": "OnlyFans",
+              "type": "creator",
+              "registered": false,
+              "error": "timeout"
+            }
+          ],
+          "crypto": [
+            {
+              "platform": "BitcoinTalk",
+              "type": "crypto",
+              "registered": true,
+              "status_code": 200,
+              "check_method": "email_registration_check"
+            }
+          ]
+        },
+        "detailed_results": {
+          "Instagram": {
+            "platform": "Instagram",
+            "type": "social_media",
+            "registered": false,
+            "status_code": 429,
+            "check_method": "email_registration_check"
+          },
+          "Twitter/X": {
+            "platform": "Twitter/X",
+            "type": "social_media",
+            "registered": false,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "Facebook": {
+            "platform": "Facebook",
+            "type": "social_media",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "Tumblr": {
+            "platform": "Tumblr",
+            "type": "social_media",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "GitHub": {
+            "platform": "GitHub",
+            "type": "development",
+            "registered": false,
+            "status_code": 422,
+            "check_method": "email_registration_check"
+          },
+          "Spotify": {
+            "platform": "Spotify",
+            "type": "entertainment",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "GitLab": {
+            "platform": "GitLab",
+            "type": "development",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "LinkedIn": {
+            "platform": "LinkedIn",
+            "type": "social_media",
+            "registered": false,
+            "error": "('Connection broken: IncompleteRead(86016 bytes read, 12525 more expected)', IncompleteRead(86016 by"
+          },
+          "Pinterest": {
+            "platform": "Pinterest",
+            "type": "social_media",
+            "registered": false,
+            "status_code": 403,
+            "check_method": "email_registration_check"
+          },
+          "TikTok": {
+            "platform": "TikTok",
+            "type": "social_media",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Discord": {
+            "platform": "Discord",
+            "type": "communication",
+            "registered": false,
+            "status_code": 400,
+            "check_method": "email_registration_check"
+          },
+          "Etsy": {
+            "platform": "Etsy",
+            "type": "ecommerce",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Epic Games": {
+            "platform": "Epic Games",
+            "type": "gaming",
+            "registered": false,
+            "status_code": 409,
+            "check_method": "email_registration_check"
+          },
+          "Shopify": {
+            "platform": "Shopify",
+            "type": "ecommerce",
+            "registered": false,
+            "status_code": 405,
+            "check_method": "email_registration_check"
+          },
+          "Snapchat": {
+            "platform": "Snapchat",
+            "type": "social_media",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Roblox": {
+            "platform": "Roblox",
+            "type": "gaming",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Medium": {
+            "platform": "Medium",
+            "type": "professional",
+            "registered": false,
+            "status_code": 400,
+            "check_method": "email_registration_check"
+          },
+          "Stack Overflow": {
+            "platform": "Stack Overflow",
+            "type": "professional",
+            "registered": false,
+            "status_code": 403,
+            "check_method": "email_registration_check"
+          },
+          "Airbnb": {
+            "platform": "Airbnb",
+            "type": "travel",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Quora": {
+            "platform": "Quora",
+            "type": "professional",
+            "registered": false,
+            "status_code": 403,
+            "check_method": "email_registration_check"
+          },
+          "Uber": {
+            "platform": "Uber",
+            "type": "transport",
+            "registered": false,
+            "status_code": 403,
+            "check_method": "email_registration_check"
+          },
+          "PayPal": {
+            "platform": "PayPal",
+            "type": "payment",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "Steam": {
+            "platform": "Steam",
+            "type": "gaming",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "eBay": {
+            "platform": "eBay",
+            "type": "ecommerce",
+            "registered": false,
+            "status_code": 307,
+            "check_method": "email_registration_check"
+          },
+          "Patreon": {
+            "platform": "Patreon",
+            "type": "creator",
+            "registered": false,
+            "status_code": 403,
+            "check_method": "email_registration_check"
+          },
+          "Amazon": {
+            "platform": "Amazon",
+            "type": "ecommerce",
+            "registered": false,
+            "status_code": 404,
+            "check_method": "email_registration_check"
+          },
+          "Booking.com": {
+            "platform": "Booking.com",
+            "type": "travel",
+            "registered": false,
+            "status_code": 405,
+            "check_method": "email_registration_check"
+          },
+          "BitcoinTalk": {
+            "platform": "BitcoinTalk",
+            "type": "crypto",
+            "registered": true,
+            "status_code": 200,
+            "check_method": "email_registration_check"
+          },
+          "Reddit": {
+            "platform": "Reddit",
+            "type": "social_media",
+            "registered": false,
+            "error": "timeout"
+          },
+          "OnlyFans": {
+            "platform": "OnlyFans",
+            "type": "creator",
+            "registered": false,
+            "error": "timeout"
+          }
+        }
+      },
+      "dark_web_intelligence": {
+        "darkweb_sources_checked": 5,
+        "exposure_found": true,
+        "detailed_results": {
+          "Have I Been Pwned (Dark Web)": {
+            "found": false,
+            "type": "dark_web_breaches",
+            "source": "Have I Been Pwned (Dark Web)",
+            "status_code": 401
+          },
+          "Firefox Monitor": {
+            "found": false,
+            "type": "breach_monitoring",
+            "source": "Firefox Monitor",
+            "status_code": 406
+          },
+          "IntelX": {
+            "found": false,
+            "type": "deep_web_search",
+            "source": "IntelX",
+            "status_code": 405
+          },
+          "DeHashed (Public)": {
+            "found": true,
+            "type": "dark_web_exposure",
+            "source": "DeHashed (Public)",
+            "response_size": 178330
+          },
+          "SnusBase (Public)": {
+            "found": true,
+            "type": "dark_web_exposure",
+            "source": "SnusBase (Public)",
+            "response_size": 2571
+          }
+        }
+      },
+      "breach_intelligence": {
+        "error": "HIBP API error: 401"
+      },
+      "email_reputation": {
+        "status": "api_key_not_configured"
+      },
+      "domain_security": {
+        "malicious": 0,
+        "suspicious": 0,
+        "clean": 58,
+        "undetected": 33
+      },
+      "gravatar_profile": {
+        "exists": false
+      },
+      "disposable_check": {
+        "is_disposable": false,
+        "domain": "gmail.com"
+      },
+      "risk_summary": {
+        "overall_risk": "CRITICAL",
+        "risk_factors": [
+          "Email found on dark web/deep web sources"
+        ],
+        "recommendations": [
+          "Change passwords immediately on all accounts",
+          "Enable Two-Factor Authentication everywhere",
+          "Use unique passwords for each service",
+          "Monitor accounts for suspicious activity"
+        ]
+      }
+    },
+    "reputation": {
+      "score": 0,
+      "factors": []
+    },
+    "timeline": [
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collection started"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected email"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected domain"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected timestamp"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected registration_check"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected dark_web_intelligence"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected breach_intelligence"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected email_reputation"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected domain_security"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected gravatar_profile"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected disposable_check"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886394Z",
+        "desc": "Collected risk_summary"
+      },
+      {
+        "time": "2026-07-22T10:49:01.886445Z",
+        "desc": "Analysis complete"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "case_id": "BR8-f7b64a02",
+  "investigator": "BR8_Analyst",
+  "target_type": "phone",
+  "target": "+250788870595",
+  "results": {
+    "basic_info": {
+      "number": "+250 788 870 595",
+      "national_format": "0788 870 595",
+      "country": "Rwanda",
+      "region": "RW",
+      "valid": true
+    },
+    "carrier_information": {
+      "standard_carrier": "KtRN",
+      "detailed_carrier": null,
+      "display_name": "KtRN"
+    },
+    "location_information": {
+      "timezone": [
+        "Africa/Kigali"
+      ],
+      "approximate_location": "Rwanda",
+      "specific_location": null,
+      "coordinates": null
+    },
+    "number_analysis": {
+      "total_digits": 9,
+      "number_type": "mobile",
+      "is_premium": false,
+      "is_voip": false,
+      "risk_level": "low"
+    },
+    "external_verification": null,
+    "additional_intelligence": {
+      "is_mobile": true,
+      "is_fixed_line": false,
+      "possible_location": "Rwanda",
+      "geocoding_accuracy": "city_level"
+    },
+    "sim_owner_status": {
+      "status": "restricted",
+      "message": "SIM registration data requires legal authorization",
+      "available_through": "RURA (Rwanda Utilities Regulatory Authority) for Rwanda",
+      "data_protection_laws": {
+        "Rwanda": "Law N\u00b0 058/2021 of 13/10/2021 relating to the protection of personal data and privacy",
+        "International": "GDPR (Europe), CCPA (California), LGPD (Brazil)"
+      }
+    },
+    "lookup_timestamp": "2026-07-22T10:45:25.391871"
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected basic_info"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected carrier_information"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected location_information"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected number_analysis"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected external_verification"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected additional_intelligence"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected sim_owner_status"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395270Z",
+      "desc": "Collected lookup_timestamp"
+    },
+    {
+      "time": "2026-07-22T09:45:25.395292Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-22T11:29:48.902845",
+    "report_id": "BR8-73612596",
+    "investigator": "BR8_Analyst",
+    "target_display_name": "Email: barakaromain25@gmail.com",
+    "target_details": {
+      "Address": "barakaromain25@gmail.com"
+    }
+  },
+  "original_data": {
+    "case_id": "BR8-73612596",
+    "investigator": "BR8_Analyst",
+    "target_type": "email",
+    "target": "barakaromain25@gmail.com",
+    "results": {
+      "email": "barakaromain25@gmail.com",
+      "domain": "gmail.com",
+      "timestamp": "2026-07-22T11:29:48.899310",
+      "email_analysis": {
+        "disposable_check": {
+          "is_disposable": false,
+          "domain_checked": "gmail.com",
+          "risk_level": "LOW"
+        },
+        "format_analysis": {
+          "has_plus_addressing": false,
+          "contains_numbers": true,
+          "length": 24,
+          "uses_common_provider": true,
+          "has_special_chars": false,
+          "suspicious_patterns": []
+        }
+      },
+      "breach_intelligence": {
+        "hibp_k_anonymity": {
+          "found_in_breaches": false,
+          "breach_count": 0,
+          "method": "k-anonymity",
+          "privacy_preserved": true
+        },
+        "hibp_breach_details": {
+          "error": "API returned status 401"
+        },
+        "firefox_monitor": {
+          "error": "Firefox Monitor returned status 404"
+        }
+      },
+      "email_reputation": {
+        "status": "api_key_not_configured",
+        "message": "Get FREE API key from https://emailrep.io/"
+      },
+      "domain_security": {
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 58,
+        "undetected": 33,
+        "total_engines": 91,
+        "categories": {},
+        "last_analysis_date": 1784709452
+      },
+      "social_media_presence": {
+        "Google": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://accounts.google.com/signin/recovery?email=barakaromain25%40gmail.com"
+        },
+        "Facebook": {
+          "likely_registered": false,
+          "status_code": 400,
+          "password_reset_url": "https://www.facebook.com/login/identify?email=barakaromain25%40gmail.com"
+        },
+        "Twitter/X": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://twitter.com/account/begin_password_reset?email=barakaromain25%40gmail.com"
+        },
+        "LinkedIn": {
+          "likely_registered": false,
+          "status_code": 999,
+          "password_reset_url": "https://www.linkedin.com/uas/request-password-reset?email=barakaromain25%40gmail.com"
+        },
+        "Instagram": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.instagram.com/accounts/password/reset/?email=barakaromain25%40gmail.com"
+        },
+        "GitHub": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://github.com/password_reset?email=barakaromain25%40gmail.com"
+        },
+        "GitLab": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://gitlab.com/users/password/new?user[email]=barakaromain25%40gmail.com"
+        },
+        "Reddit": {
+          "likely_registered": false,
+          "error": "timeout",
+          "password_reset_url": "https://www.reddit.com/password?email=barakaromain25%40gmail.com"
+        },
+        "Pinterest": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.pinterest.com/password/reset/?email=barakaromain25%40gmail.com"
+        },
+        "Spotify": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.spotify.com/password-reset/?email=barakaromain25%40gmail.com"
+        },
+        "Discord": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://discord.com/login?email=barakaromain25%40gmail.com"
+        },
+        "Snapchat": {
+          "likely_registered": false,
+          "status_code": 405,
+          "password_reset_url": "https://accounts.snapchat.com/accounts/password_reset?email=barakaromain25%40gmail.com"
+        },
+        "TikTok": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.tiktok.com/login/email/forget-password?email=barakaromain25%40gmail.com"
+        },
+        "Dropbox": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.dropbox.com/forgot?email=barakaromain25%40gmail.com"
+        },
+        "PayPal": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.paypal.com/authflow/password-recovery/?email=barakaromain25%40gmail.com"
+        },
+        "Amazon": {
+          "likely_registered": false,
+          "status_code": 404,
+          "password_reset_url": "https://www.amazon.com/ap/forgotpassword?email=barakaromain25%40gmail.com"
+        },
+        "eBay": {
+          "likely_registered": false,
+          "error": "connection_failed",
+          "password_reset_url": "https://signin.ebay.com/ws/eBayISAPI.dll?forgotpassword&email=barakaromain25%40gmail.com"
+        },
+        "Netflix": {
+          "likely_registered": false,
+          "status_code": 403,
+          "password_reset_url": "https://www.netflix.com/LoginHelp?email=barakaromain25%40gmail.com"
+        },
+        "WordPress": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://wordpress.com/wp-login.php?action=lostpassword&email=barakaromain25%40gmail.com"
+        },
+        "Adobe": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://account.adobe.com/forgot-password?email=barakaromain25%40gmail.com"
+        },
+        "Microsoft": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://account.live.com/password/reset?email=barakaromain25%40gmail.com"
+        },
+        "Apple": {
+          "likely_registered": false,
+          "status_code": 401,
+          "password_reset_url": "https://iforgot.apple.com/password/verify/appleid?email=barakaromain25%40gmail.com"
+        },
+        "Yahoo": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://login.yahoo.com/forgot?email=barakaromain25%40gmail.com"
+        },
+        "ProtonMail": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://mail.protonmail.com/help/reset-password?email=barakaromain25%40gmail.com"
+        },
+        "Steam": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://store.steampowered.com/login/forgotpassword?email=barakaromain25%40gmail.com"
+        },
+        "Epic Games": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://www.epicgames.com/account/password/reset?email=barakaromain25%40gmail.com"
+        },
+        "Ubisoft": {
+          "likely_registered": false,
+          "status_code": 404,
+          "password_reset_url": "https://account.ubisoft.com/forgot-password?email=barakaromain25%40gmail.com"
+        },
+        "Battle.net": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://account.battle.net/password/reset?email=barakaromain25%40gmail.com"
+        },
+        "Telegram": {
+          "likely_registered": false,
+          "error": "timeout",
+          "password_reset_url": "https://telegram.org/"
+        },
+        "Signal": {
+          "likely_registered": true,
+          "status_code": 200,
+          "password_reset_url": "https://signal.org/"
+        },
+        "WhatsApp": {
+          "likely_registered": false,
+          "status_code": 400,
+          "password_reset_url": "https://www.whatsapp.com/"
+        }
+      },
+      "gravatar_profile": {
+        "exists": false
+      },
+      "password_recovery_guide": {
+        "email": "barakaromain25@gmail.com",
+        "domain": "gmail.com",
+        "email_provider": {
+          "name": "Google Gmail",
+          "recovery_url": "https://accounts.google.com/signin/recovery",
+          "available_options": {
+            "phone_recovery": true,
+            "backup_email": true,
+            "two_factor": true
+          }
+        },
+        "recovery_steps": [
+          {
+            "step": 1,
+            "action": "Visit recovery page",
+            "url": "https://accounts.google.com/signin/recovery"
+          },
+          {
+            "step": 2,
+            "action": "Enter your email address",
+            "note": "Use the exact email you need to recover"
+          },
+          {
+            "step": 3,
+            "action": "Choose recovery method",
+            "options": [
+              "Recovery phone number (SMS or voice call)",
+              "Backup email address",
+              "Two-factor authentication backup codes",
+              "Security questions"
+            ]
+          },
+          {
+            "step": 4,
+            "action": "Verify your identity",
+            "note": "Follow the verification process sent to your recovery method"
+          },
+          {
+            "step": 5,
+            "action": "Create new password",
+            "note": "Use a strong, unique password (minimum 12 characters, mix of letters, numbers, symbols)"
+          },
+          {
+            "step": 6,
+            "action": "Enable Two-Factor Authentication",
+            "note": "Set up 2FA immediately after regaining access"
+          }
+        ],
+        "social_media_recovery": {
+          "Google": "https://accounts.google.com/signin/recovery?email=barakaromain25%40gmail.com",
+          "Facebook": "https://www.facebook.com/login/identify?email=barakaromain25%40gmail.com",
+          "Twitter/X": "https://twitter.com/account/begin_password_reset?email=barakaromain25%40gmail.com",
+          "LinkedIn": "https://www.linkedin.com/uas/request-password-reset?email=barakaromain25%40gmail.com",
+          "Instagram": "https://www.instagram.com/accounts/password/reset/?email=barakaromain25%40gmail.com",
+          "GitHub": "https://github.com/password_reset?email=barakaromain25%40gmail.com",
+          "GitLab": "https://gitlab.com/users/password/new?user[email]=barakaromain25%40gmail.com",
+          "Reddit": "https://www.reddit.com/password?email=barakaromain25%40gmail.com",
+          "Pinterest": "https://www.pinterest.com/password/reset/?email=barakaromain25%40gmail.com",
+          "Spotify": "https://www.spotify.com/password-reset/?email=barakaromain25%40gmail.com",
+          "Snapchat": "https://accounts.snapchat.com/accounts/password_reset?email=barakaromain25%40gmail.com",
+          "TikTok": "https://www.tiktok.com/login/email/forget-password?email=barakaromain25%40gmail.com",
+          "Dropbox": "https://www.dropbox.com/forgot?email=barakaromain25%40gmail.com",
+          "PayPal": "https://www.paypal.com/authflow/password-recovery/?email=barakaromain25%40gmail.com",
+          "Amazon": "https://www.amazon.com/ap/forgotpassword?email=barakaromain25%40gmail.com",
+          "eBay": "https://signin.ebay.com/ws/eBayISAPI.dll?forgotpassword&email=barakaromain25%40gmail.com",
+          "WordPress": "https://wordpress.com/wp-login.php?action=lostpassword&email=barakaromain25%40gmail.com",
+          "Adobe": "https://account.adobe.com/forgot-password?email=barakaromain25%40gmail.com",
+          "Microsoft": "https://account.live.com/password/reset?email=barakaromain25%40gmail.com",
+          "Apple": "https://iforgot.apple.com/password/verify/appleid?email=barakaromain25%40gmail.com",
+          "Yahoo": "https://login.yahoo.com/forgot?email=barakaromain25%40gmail.com",
+          "ProtonMail": "https://mail.protonmail.com/help/reset-password?email=barakaromain25%40gmail.com",
+          "Steam": "https://store.steampowered.com/login/forgotpassword?email=barakaromain25%40gmail.com",
+          "Epic Games": "https://www.epicgames.com/account/password/reset?email=barakaromain25%40gmail.com",
+          "Ubisoft": "https://account.ubisoft.com/forgot-password?email=barakaromain25%40gmail.com",
+          "Battle.net": "https://account.battle.net/password/reset?email=barakaromain25%40gmail.com"
+        },
+        "security_recommendations": [
+          "Use a password manager (Bitwarden - free and open source)",
+          "Enable Two-Factor Authentication on all accounts",
+          "Use unique passwords for each service",
+          "Store backup codes in a secure location",
+          "Set up recovery email and phone number",
+          "Regularly check for breaches at https://haveibeenpwned.com",
+          "Use https://monitor.firefox.com for free breach monitoring",
+          "Consider using a physical security key (YubiKey) for critical accounts",
+          "Never share passwords or 2FA codes with anyone",
+          "Be cautious of phishing emails asking for account recovery"
+        ]
+      },
+      "risk_summary": {
+        "overall_risk_level": "LOW",
+        "breach_exposure": "NONE",
+        "suspicious_activity": [],
+        "risk_factors": [],
+        "recommendations": [
+          "Enable Two-Factor Authentication on all accounts",
+          "Use a password manager for unique passwords",
+          "Check email forwarding rules and recovery settings",
+          "Monitor accounts for suspicious activity",
+          "Review recent login activity"
+        ],
+        "immediate_actions": []
+      }
+    },
+    "reputation": {
+      "score": 0,
+      "factors": []
+    },
+    "timeline": [
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collection started"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected email"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected domain"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected timestamp"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected email_analysis"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected breach_intelligence"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected email_reputation"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected domain_security"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected social_media_presence"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected gravatar_profile"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected password_recovery_guide"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899479Z",
+        "desc": "Collected risk_summary"
+      },
+      {
+        "time": "2026-07-22T10:29:48.899498Z",
+        "desc": "Analysis complete"
+      }
+    ]
+  }
+}

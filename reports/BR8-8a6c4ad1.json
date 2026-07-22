@@ -1,0 +1,56 @@
+{
+  "case_id": "BR8-8a6c4ad1",
+  "investigator": "BR8_Analyst",
+  "target_type": "ip",
+  "target": "104.21.30.246",
+  "results": {
+    "whois": {},
+    "ipinfo": {
+      "ip": "104.21.30.246",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "US",
+      "loc": "37.7621,-122.3971",
+      "org": "AS13335 Cloudflare, Inc.",
+      "postal": "94107",
+      "timezone": "America/Los_Angeles",
+      "readme": "https://ipinfo.io/missingauth",
+      "anycast": true
+    },
+    "blacklist": [],
+    "vpn_proxy": {
+      "vpn": false,
+      "proxy": false
+    }
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-22T11:07:51.556303Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-22T11:07:51.556303Z",
+      "desc": "Collected whois"
+    },
+    {
+      "time": "2026-07-22T11:07:51.556303Z",
+      "desc": "Collected ipinfo"
+    },
+    {
+      "time": "2026-07-22T11:07:51.556303Z",
+      "desc": "Collected blacklist"
+    },
+    {
+      "time": "2026-07-22T11:07:51.556303Z",
+      "desc": "Collected vpn_proxy"
+    },
+    {
+      "time": "2026-07-22T11:07:51.556337Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

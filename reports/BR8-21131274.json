@@ -1,0 +1,57 @@
+{
+  "case_id": "BR8-21131274",
+  "investigator": "BR8_Analyst",
+  "target_type": "darkweb",
+  "target": "mutesiscovia",
+  "results": [
+    {
+      "service": "tunnels",
+      "url": "http://62gs2n5ydnyffzfy.onion",
+      "username": "mutesiscovia",
+      "found": false,
+      "metadata": {
+        "domain": "http://62gs2n5ydnyffzfy.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T12:49:21.818458Z"
+      }
+    },
+    {
+      "service": "elude",
+      "url": "http://eludemaillhqfkh5.onion",
+      "username": "mutesiscovia",
+      "found": false,
+      "metadata": {
+        "domain": "http://eludemaillhqfkh5.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T12:49:21.819096Z"
+      }
+    },
+    {
+      "type": "darkweb_analysis",
+      "username": "mutesiscovia",
+      "services_checked": 2,
+      "services_found": 0,
+      "timestamp": "2026-07-21T12:49:21.819108Z"
+    }
+  ],
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T12:49:21.819312Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T12:49:21.819312Z",
+      "desc": "Found 3 items"
+    },
+    {
+      "time": "2026-07-21T12:49:21.819319Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

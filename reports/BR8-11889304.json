@@ -1,0 +1,37 @@
+{
+  "case_id": "BR8-11889304",
+  "investigator": "BR8_Analyst",
+  "target_type": "phone",
+  "target": "+250791206012",
+  "results": {
+    "number": "+250791206012",
+    "country": "Rwanda",
+    "carrier": "KtRN"
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T13:24:07.671127Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T13:24:07.671127Z",
+      "desc": "Collected number"
+    },
+    {
+      "time": "2026-07-21T13:24:07.671127Z",
+      "desc": "Collected country"
+    },
+    {
+      "time": "2026-07-21T13:24:07.671127Z",
+      "desc": "Collected carrier"
+    },
+    {
+      "time": "2026-07-21T13:24:07.671162Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

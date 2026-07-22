@@ -1,0 +1,199 @@
+{
+  "case_id": "BR8-04af4cc1",
+  "investigator": "BR8_Analyst",
+  "target_type": "ddos",
+  "target": "198.162.60.4:8080",
+  "results": [
+    {
+      "type": "target_info",
+      "target": "198.162.60.4:8080",
+      "is_ip": false,
+      "resolved_ip": "198.162.60.4:8080",
+      "analysis_type": "DDoS Vulnerability & Pattern Analysis",
+      "timestamp": "2026-07-21T13:28:12.105124Z",
+      "status": "simulation_mode"
+    },
+    {
+      "type": "traffic_analysis",
+      "baseline_rps": 1357,
+      "current_rps": 13419,
+      "peak_rps": 35159,
+      "traffic_spike_detected": true,
+      "spike_percentage": 4744,
+      "unusual_patterns": [
+        "High SYN packet rate detected",
+        "Multiple source IPs with identical packet patterns",
+        "Abnormal geographic distribution of requests",
+        "Sudden spike in connection attempts"
+      ]
+    },
+    {
+      "type": "attack_vectors",
+      "detected_vectors": [
+        "SYN Flood",
+        "Smurf Attack",
+        "DNS Amplification"
+      ],
+      "primary_vector": "SYN Flood",
+      "vector_details": [
+        {
+          "vector": "SYN Flood",
+          "severity": "high",
+          "packet_count": 256400,
+          "bandwidth_consumed": "14 Gbps"
+        },
+        {
+          "vector": "Smurf Attack",
+          "severity": "medium",
+          "packet_count": 19180,
+          "bandwidth_consumed": "3 Gbps"
+        }
+      ]
+    },
+    {
+      "type": "source_analysis",
+      "unique_source_ips": 26619,
+      "botnet_indicators": true,
+      "top_source_countries": [
+        "US",
+        "CN",
+        "RU",
+        "BR",
+        "IN"
+      ],
+      "suspicious_asn_count": 185,
+      "tor_exit_nodes_detected": 30,
+      "cloud_provider_ips": 354,
+      "residential_proxy_ips": 882
+    },
+    {
+      "type": "protocol_analysis",
+      "protocols": {
+        "TCP": "45%",
+        "UDP": "39%",
+        "ICMP": "7%",
+        "Other": "2%"
+      },
+      "malformed_packets": 8332,
+      "fragmented_packets": 4336
+    },
+    {
+      "type": "impact_assessment",
+      "severity_level": "Critical",
+      "estimated_downtime": "52 minutes",
+      "affected_services": [
+        "HTTP/HTTPS",
+        "DNS",
+        "SSH",
+        "Database"
+      ],
+      "cpu_usage": "92%",
+      "memory_usage": "84%",
+      "bandwidth_utilization": "96%",
+      "connection_queue_size": 96840,
+      "dropped_packets": 132632
+    },
+    {
+      "type": "botnet_analysis",
+      "botnet_detected": true,
+      "suspected_botnet": "Gafgyt",
+      "bot_characteristics": {
+        "user_agents": 47,
+        "attack_patterns": "Coordinated timing",
+        "command_and_control": "Multiple C2 servers detected",
+        "bot_sophistication": "High"
+      }
+    },
+    {
+      "type": "mitigation_recommendations",
+      "immediate_actions": [
+        "Enable rate limiting on all public endpoints",
+        "Activate upstream ISP DDoS mitigation",
+        "Deploy Web Application Firewall (WAF)",
+        "Enable geo-blocking for high-risk regions",
+        "Implement CAPTCHA challenges",
+        "Scale infrastructure horizontally",
+        "Contact DDoS mitigation service provider"
+      ],
+      "recommended_services": [
+        "AWS Shield",
+        "Arbor Networks"
+      ],
+      "firewall_rules": [
+        "Block suspicious ASNs",
+        "Rate limit per source IP",
+        "Drop malformed packets",
+        "Implement SYN cookies"
+      ],
+      "estimated_mitigation_time": "25 minutes"
+    },
+    {
+      "type": "historical_analysis",
+      "previous_attacks": 5,
+      "attack_history": [
+        {
+          "date": "2026-06-29",
+          "duration": "104 minutes",
+          "peak_rps": 49711,
+          "vector": "NTP Amplification"
+        },
+        {
+          "date": "2026-06-21",
+          "duration": "219 minutes",
+          "peak_rps": 73795,
+          "vector": "NTP Amplification"
+        },
+        {
+          "date": "2026-07-17",
+          "duration": "240 minutes",
+          "peak_rps": 72120,
+          "vector": "HTTP Flood"
+        },
+        {
+          "date": "2026-06-26",
+          "duration": "67 minutes",
+          "peak_rps": 24927,
+          "vector": "DNS Amplification"
+        },
+        {
+          "date": "2026-06-22",
+          "duration": "109 minutes",
+          "peak_rps": 27045,
+          "vector": "SYN Flood"
+        }
+      ],
+      "pattern": "Increasing frequency and intensity",
+      "likely_targeted": true
+    },
+    {
+      "type": "cost_estimation",
+      "estimated_costs": {
+        "bandwidth_overage": "$4372",
+        "service_downtime": "$36547",
+        "mitigation_services": "$692",
+        "incident_response": "$2224",
+        "total_estimated": "$26736"
+      },
+      "reputation_impact": "Low",
+      "customer_impact": "7480 users affected"
+    }
+  ],
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T13:28:12.110922Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T13:28:12.110922Z",
+      "desc": "Found 10 items"
+    },
+    {
+      "time": "2026-07-21T13:28:12.110935Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

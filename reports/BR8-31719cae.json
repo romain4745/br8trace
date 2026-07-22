@@ -1,0 +1,51 @@
+{
+  "case_id": "BR8-31719cae",
+  "investigator": "BR8_Analyst",
+  "target_type": "ip",
+  "target": "104.698.03.1",
+  "results": {
+    "whois": {},
+    "ipinfo": {
+      "status": 404,
+      "error": {
+        "title": "Wrong ip",
+        "message": "Please provide a valid IP address"
+      }
+    },
+    "blacklist": [],
+    "vpn_proxy": {
+      "vpn": false,
+      "proxy": false
+    }
+  },
+  "reputation": {
+    "score": 0,
+    "factors": []
+  },
+  "timeline": [
+    {
+      "time": "2026-07-22T13:45:08.418000Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-22T13:45:08.418000Z",
+      "desc": "Collected whois"
+    },
+    {
+      "time": "2026-07-22T13:45:08.418000Z",
+      "desc": "Collected ipinfo"
+    },
+    {
+      "time": "2026-07-22T13:45:08.418000Z",
+      "desc": "Collected blacklist"
+    },
+    {
+      "time": "2026-07-22T13:45:08.418000Z",
+      "desc": "Collected vpn_proxy"
+    },
+    {
+      "time": "2026-07-22T13:45:08.418062Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}

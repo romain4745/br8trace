@@ -1,0 +1,679 @@
+{
+  "case_id": "BR8-6c07b572",
+  "investigator": "BR8_Analyst",
+  "target_type": "username",
+  "target": "graciebon",
+  "results": [
+    {
+      "platform": "discord",
+      "exists": true,
+      "url": "https://discord.com/users/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:58.990654Z"
+    },
+    {
+      "platform": "linkedin",
+      "exists": false,
+      "url": "https://www.linkedin.com/in/graciebon",
+      "status_code": 405,
+      "timestamp": "2026-07-21T12:53:59.260774Z"
+    },
+    {
+      "platform": "instagram",
+      "exists": true,
+      "url": "https://www.instagram.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.266001Z"
+    },
+    {
+      "platform": "vimeo",
+      "exists": false,
+      "url": "https://vimeo.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:53:59.271053Z"
+    },
+    {
+      "platform": "facebook",
+      "exists": true,
+      "url": "https://www.facebook.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.307697Z"
+    },
+    {
+      "platform": "twitch",
+      "exists": false,
+      "url": "https://www.twitch.tv/graciebon",
+      "status_code": 405,
+      "timestamp": "2026-07-21T12:53:59.311279Z"
+    },
+    {
+      "platform": "youtube",
+      "exists": true,
+      "url": "https://www.youtube.com/@graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.342930Z"
+    },
+    {
+      "platform": "tiktok",
+      "exists": true,
+      "url": "https://www.tiktok.com/404?fromUrl=/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.350498Z"
+    },
+    {
+      "platform": "github",
+      "exists": true,
+      "url": "https://github.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.354437Z"
+    },
+    {
+      "platform": "telegram",
+      "exists": true,
+      "url": "https://t.me/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.361193Z"
+    },
+    {
+      "platform": "dribbble",
+      "exists": false,
+      "url": "https://dribbble.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:53:59.399004Z"
+    },
+    {
+      "platform": "pinterest",
+      "exists": true,
+      "url": "https://www.pinterest.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.427650Z"
+    },
+    {
+      "platform": "steam",
+      "exists": true,
+      "url": "https://steamcommunity.com/id/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.443610Z"
+    },
+    {
+      "platform": "x",
+      "exists": true,
+      "url": "https://x.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.463877Z"
+    },
+    {
+      "platform": "spotify",
+      "exists": true,
+      "url": "https://open.spotify.com/user/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.539745Z"
+    },
+    {
+      "platform": "soundcloud",
+      "exists": true,
+      "url": "https://soundcloud.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:53:59.633379Z"
+    },
+    {
+      "platform": "sourceforge",
+      "exists": false,
+      "url": "https://sourceforge.net/u/graciebon",
+      "status_code": 403,
+      "timestamp": "2026-07-21T12:53:59.754314Z"
+    },
+    {
+      "platform": "codepen",
+      "exists": false,
+      "url": "https://codepen.io/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:00.178915Z"
+    },
+    {
+      "platform": "replit",
+      "exists": true,
+      "url": "https://replit.com/login?source=root-profile&goto=%2F%40graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:00.273697Z"
+    },
+    {
+      "platform": "flickr",
+      "exists": false,
+      "url": "https://www.flickr.com/people/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:00.895789Z"
+    },
+    {
+      "platform": "keybase",
+      "exists": false,
+      "url": "https://keybase.io/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:08.410416Z"
+    },
+    {
+      "platform": "twitter",
+      "exists": false,
+      "url": "https://twitter.com/graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:08.670335Z"
+    },
+    {
+      "platform": "reddit",
+      "exists": false,
+      "url": "https://www.reddit.com/user/graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:08.977694Z"
+    },
+    {
+      "platform": "behance",
+      "exists": false,
+      "url": "https://www.behance.net/graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:09.410523Z"
+    },
+    {
+      "platform": "gitlab",
+      "exists": false,
+      "url": "https://gitlab.com/graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:09.430256Z"
+    },
+    {
+      "platform": "hackernews",
+      "exists": false,
+      "url": "https://news.ycombinator.com/user?id=graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:09.447274Z"
+    },
+    {
+      "platform": "wellfound",
+      "exists": false,
+      "url": "https://wellfound.com/u/graciebon",
+      "status_code": 403,
+      "timestamp": "2026-07-21T12:54:12.393871Z"
+    },
+    {
+      "platform": "scribd",
+      "exists": true,
+      "url": "https://www.scribd.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.595433Z"
+    },
+    {
+      "platform": "letterboxd",
+      "exists": false,
+      "url": "https://letterboxd.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:12.626177Z"
+    },
+    {
+      "platform": "tumblr",
+      "exists": true,
+      "url": "https://www.tumblr.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.681065Z"
+    },
+    {
+      "platform": "hashnode",
+      "exists": true,
+      "url": "https://hashnode.com/@graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.728421Z"
+    },
+    {
+      "platform": "issuu",
+      "exists": true,
+      "url": "https://issuu.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.731110Z"
+    },
+    {
+      "platform": "slideshare",
+      "exists": true,
+      "url": "https://www.slideshare.net/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.740029Z"
+    },
+    {
+      "platform": "snapchat",
+      "exists": true,
+      "url": "https://www.snapchat.com/@graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:12.830390Z"
+    },
+    {
+      "platform": "weworkremotely",
+      "exists": false,
+      "url": "https://weworkremotely.com/people/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:12.857214Z"
+    },
+    {
+      "platform": "devto",
+      "exists": false,
+      "url": "https://dev.to/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:12.928786Z"
+    },
+    {
+      "platform": "goodreads",
+      "exists": false,
+      "url": "https://www.goodreads.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.159969Z"
+    },
+    {
+      "platform": "angelco",
+      "exists": false,
+      "url": "https://wellfound.com/u/graciebon",
+      "status_code": 403,
+      "timestamp": "2026-07-21T12:54:13.237149Z"
+    },
+    {
+      "platform": "indiehackers",
+      "exists": true,
+      "url": "https://www.indiehackers.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:13.288149Z"
+    },
+    {
+      "platform": "substack",
+      "exists": false,
+      "url": "https://substack.com/@graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.386108Z"
+    },
+    {
+      "platform": "quora",
+      "exists": false,
+      "url": "https://www.quora.com/profile/graciebon",
+      "status_code": 403,
+      "timestamp": "2026-07-21T12:54:13.391580Z"
+    },
+    {
+      "platform": "bandcamp",
+      "exists": false,
+      "url": "https://bandcamp.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.508023Z"
+    },
+    {
+      "platform": "lastfm",
+      "exists": false,
+      "url": "https://www.last.fm/user/graciebon",
+      "status_code": 600,
+      "timestamp": "2026-07-21T12:54:13.627278Z"
+    },
+    {
+      "platform": "stackoverflow",
+      "exists": false,
+      "url": "https://stackoverflow.com/users/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.659675Z"
+    },
+    {
+      "platform": "eventbrite",
+      "exists": false,
+      "url": "https://www.eventbrite.com/people/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.670711Z"
+    },
+    {
+      "platform": "ko-fi",
+      "exists": true,
+      "url": "https://ko-fi.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:13.672801Z"
+    },
+    {
+      "platform": "jsfiddle",
+      "exists": false,
+      "url": "https://jsfiddle.net/user/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:13.828205Z"
+    },
+    {
+      "platform": "dockerhub",
+      "exists": true,
+      "url": "https://hub.docker.com/u/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.111493Z"
+    },
+    {
+      "platform": "bitbucket",
+      "exists": false,
+      "url": "https://bitbucket.org/graciebon/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:14.136992Z"
+    },
+    {
+      "platform": "heroku",
+      "exists": true,
+      "url": "https://dashboard.heroku.com/apps/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.460573Z"
+    },
+    {
+      "platform": "buymeacoffee",
+      "exists": true,
+      "url": "https://buymeacoffee.com/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.475704Z"
+    },
+    {
+      "platform": "gravatar",
+      "exists": false,
+      "url": "https://gravatar.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:14.480766Z"
+    },
+    {
+      "platform": "rubygems",
+      "exists": false,
+      "url": "https://rubygems.org/profiles/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:14.484607Z"
+    },
+    {
+      "platform": "pypi",
+      "exists": true,
+      "url": "https://pypi.org/user/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.495927Z"
+    },
+    {
+      "platform": "cratesio",
+      "exists": false,
+      "url": "https://crates.io/users/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:14.562811Z"
+    },
+    {
+      "platform": "meetup",
+      "exists": true,
+      "url": "https://www.meetup.com/login/?returnUri=https%3A%2F%2Fwww.meetup.com%2Fmembers%2Fgraciebon%2F",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.677848Z"
+    },
+    {
+      "platform": "bigcommerce",
+      "exists": false,
+      "url": "https://graciebon.bigcommerce.com",
+      "status_code": null,
+      "error": "Connection Error",
+      "timestamp": "2026-07-21T12:54:14.859434Z"
+    },
+    {
+      "platform": "glitch",
+      "exists": true,
+      "url": "https://blog.glitch.com",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:14.898835Z"
+    },
+    {
+      "platform": "wordpress",
+      "exists": false,
+      "url": "https://profiles.wordpress.org/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:15.162696Z"
+    },
+    {
+      "platform": "drupal",
+      "exists": true,
+      "url": "https://www.drupal.org/u/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:15.295063Z"
+    },
+    {
+      "platform": "shopify",
+      "exists": false,
+      "url": "https://graciebon.myshopify.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:15.405107Z"
+    },
+    {
+      "platform": "composer",
+      "exists": false,
+      "url": "https://packagist.org/users/graciebon/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:15.516787Z"
+    },
+    {
+      "platform": "packagist",
+      "exists": true,
+      "url": "https://packagist.org/search/?q=graciebon&reason=vendor_not_found",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:15.597783Z"
+    },
+    {
+      "platform": "woocommerce",
+      "exists": false,
+      "url": "https://woocommerce.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:15.825732Z"
+    },
+    {
+      "platform": "nomadlist",
+      "exists": true,
+      "url": "https://nomads.com/macedonia",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:16.073764Z"
+    },
+    {
+      "platform": "squarespace",
+      "exists": false,
+      "url": "https://graciebon.squarespace.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:16.130340Z"
+    },
+    {
+      "platform": "wix",
+      "exists": false,
+      "url": "https://graciebon.wixsite.com/mysite",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:16.137048Z"
+    },
+    {
+      "platform": "bio",
+      "exists": true,
+      "url": "https://bio.site/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:16.346492Z"
+    },
+    {
+      "platform": "aboutme",
+      "exists": false,
+      "url": "https://about.me/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:16.522454Z"
+    },
+    {
+      "platform": "webflow",
+      "exists": true,
+      "url": "https://webflow.com/login?r=https%3A%2F%2Fwebflow.com%2Fdesign%2Fgraciebon&m=WW91IGhhdmUgYmVlbiBsb2dnZWQgb3V0LiBQbGVhc2Ugc2lnbiBiYWNrIGluIHRvIGNvbnRpbnVlLg%3D%3D",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:16.523750Z"
+    },
+    {
+      "platform": "carrd",
+      "exists": false,
+      "url": "https://graciebon.carrd.co/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:16.715088Z"
+    },
+    {
+      "platform": "blogger",
+      "exists": true,
+      "url": "https://graciebon.blogspot.com/",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:16.775714Z"
+    },
+    {
+      "platform": "ghost",
+      "exists": false,
+      "url": "https://graciebon.ghost.io/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:17.262348Z"
+    },
+    {
+      "platform": "medium",
+      "exists": true,
+      "url": "https://medium.com/@graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:17.557004Z"
+    },
+    {
+      "platform": "linktree",
+      "exists": true,
+      "url": "https://linktr.ee/graciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:17.768721Z"
+    },
+    {
+      "platform": "magento",
+      "exists": false,
+      "url": "https://commercemarketplace.adobe.com/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:18.057394Z"
+    },
+    {
+      "platform": "pastebin",
+      "exists": false,
+      "url": "https://pastebin.com/u/graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:19.359321Z"
+    },
+    {
+      "platform": "producthunt",
+      "exists": false,
+      "url": "https://www.producthunt.com/@graciebon",
+      "status_code": null,
+      "error": "Timeout",
+      "timestamp": "2026-07-21T12:54:20.655467Z"
+    },
+    {
+      "platform": "codesandbox",
+      "exists": false,
+      "url": "https://codesandbox.io/u/graciebon",
+      "status_code": 403,
+      "timestamp": "2026-07-21T12:54:20.740283Z"
+    },
+    {
+      "platform": "mixcloud",
+      "exists": true,
+      "url": "https://www.mixcloud.com/graciebon/",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:21.460868Z"
+    },
+    {
+      "platform": "netlify",
+      "exists": true,
+      "url": "https://app.netlify.com/teams/graciebon/sites",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:21.506729Z"
+    },
+    {
+      "platform": "npmjs",
+      "exists": false,
+      "url": "https://www.npmjs.com/~graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:21.652393Z"
+    },
+    {
+      "platform": "vercel",
+      "exists": true,
+      "url": "https://vercel.com/login?next=%2Fgraciebon",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:21.725398Z"
+    },
+    {
+      "platform": "patreon",
+      "exists": true,
+      "url": "https://www.patreon.com/profile/creators?u=53537618",
+      "status_code": 200,
+      "timestamp": "2026-07-21T12:54:22.683784Z"
+    },
+    {
+      "platform": "weebly",
+      "exists": false,
+      "url": "https://graciebon.weebly.com/",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:23.131770Z"
+    },
+    {
+      "platform": "joomla",
+      "exists": false,
+      "url": "https://community.joomla.org/user/graciebon",
+      "status_code": 404,
+      "timestamp": "2026-07-21T12:54:23.668208Z"
+    },
+    {
+      "service": "tunnels",
+      "url": "http://62gs2n5ydnyffzfy.onion",
+      "username": "graciebon",
+      "found": false,
+      "metadata": {
+        "domain": "http://62gs2n5ydnyffzfy.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T12:54:23.682383Z"
+      }
+    },
+    {
+      "service": "elude",
+      "url": "http://eludemaillhqfkh5.onion",
+      "username": "graciebon",
+      "found": false,
+      "metadata": {
+        "domain": "http://eludemaillhqfkh5.onion",
+        "accessible": false,
+        "reason": "Connection error",
+        "timestamp": "2026-07-21T12:54:23.683786Z"
+      }
+    },
+    {
+      "type": "darkweb_analysis",
+      "username": "graciebon",
+      "services_checked": 2,
+      "services_found": 0,
+      "timestamp": "2026-07-21T12:54:23.683835Z"
+    },
+    {
+      "type": "username_summary",
+      "username": "graciebon",
+      "clearnet_platforms_checked": 86,
+      "clearnet_profiles_found": 39,
+      "darkweb_checked": true,
+      "start_time": "2026-07-21T12:53:58.507490Z",
+      "end_time": "2026-07-21T12:54:23.684195Z",
+      "total_results": 89
+    }
+  ],
+  "reputation": {
+    "score": 30,
+    "factors": [
+      "social_hits_39"
+    ]
+  },
+  "timeline": [
+    {
+      "time": "2026-07-21T12:54:23.684792Z",
+      "desc": "Collection started"
+    },
+    {
+      "time": "2026-07-21T12:54:23.684792Z",
+      "desc": "Found 90 items"
+    },
+    {
+      "time": "2026-07-21T12:54:23.684817Z",
+      "desc": "Analysis complete"
+    }
+  ]
+}
