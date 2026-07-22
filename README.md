@@ -1,10 +1,6 @@
 # BR8Trace – Advanced OSINT & Satellite Intelligence Framework
 
-![Status](https://img.shields.io/badge/status-active-brightgreen) ![Python](https://img.shields.io/badge/python-3.8+-blue) ![License](https://img.shields.io/badge/license-Educational-orange)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/94d7a46f-4257-4f90-861b-6f9335f0c4a5" alt="BR8Trace Banner" width="800"/>
-</p>
 
 ## 📡 Overview
 
