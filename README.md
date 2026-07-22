@@ -6,9 +6,6 @@
 
 BR8Trace is a comprehensive OSINT and satellite imagery analysis framework with a hacker-themed interface. It combines traditional OSINT capabilities (IP, email, phone, username intelligence) with advanced geospatial processing and dark web monitoring.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cc9c6f4f-46dd-4ebb-bf30-b2fa3ee9d2ca" alt="Web UI Dashboard" width="800"/>
-</p>
 
 ⚠️ **IMPORTANT**: BR8Trace is intended for **legal OSINT only**. See `LEGAL.md`.
 
