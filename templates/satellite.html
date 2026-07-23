@@ -1,0 +1,231 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="page-header">
+    <h1>&gt; Satellite Intelligence</h1>
+    <div class="header-line">═══════════════════════════════════════════════════════════════════════</div>
+</div>
+
+<div class="investigation-box">
+    <div class="input-group">
+        <input type="text" id="locationInput" placeholder="Enter coordinates (e.g., 37.7749,-122.4194) or address" />
+        <button id="fetchSatellite" class="btn-primary">▶ Fetch Satellite Imagery</button>
+    </div>
+</div>
+
+<div id="results" class="results-box" style="display:none">
+    <h2>&gt; Satellite Intelligence Results</h2>
+    <div id="resultContent">
+        <div class="satellite-info">
+            <div class="satellite-image-placeholder">
+                <div class="placeholder-icon">🛰</div>
+                <p>Satellite imagery would appear here</p>
+                <p class="small">(API integration required for live imagery)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="log" class="log"></div>
+
+<style>
+.page-header h1 {
+    color: #00ff41;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin: 0 0 5px 0;
+}
+
+.header-line {
+    color: #1a3a2a;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.investigation-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px 18px;
+    background: #0a140a !important;
+    border: 1px solid #1a3a1a !important;
+    color: #00ff41 !important;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #00ff41 !important;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    background: #003300;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #004400;
+    box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
+}
+
+.results-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.results-box h2 {
+    color: #00ff41;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+}
+
+.log {
+    background: rgba(0, 10, 0, 0.9);
+    border: 1px solid #0a2a0a;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #00ff41;
+    min-height: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.log div {
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(0, 255, 65, 0.05);
+}
+
+.satellite-image-placeholder {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 34, 0, 0.2);
+    border-radius: 8px;
+    border: 1px dashed #1a3a2a;
+}
+
+.placeholder-icon {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.satellite-image-placeholder p {
+    color: #6a8a7a;
+    margin: 5px 0;
+}
+
+.satellite-image-placeholder .small {
+    color: #3a5a4a;
+    font-size: 12px;
+}
+
+.result-item {
+    padding: 10px 0;
+}
+
+.result-row {
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(10, 42, 10, 0.3);
+}
+
+.result-row .label {
+    color: #4a6a5a;
+    font-size: 13px;
+    min-width: 150px;
+}
+
+.result-row .value {
+    color: #b0c8b8;
+    font-size: 13px;
+}
+
+.result-row .value.found {
+    color: #44ff44;
+}
+</style>
+
+<script>
+document.getElementById('fetchSatellite').addEventListener('click', function() {
+    const location = document.getElementById('locationInput').value.trim();
+    const log = document.getElementById('log');
+    const results = document.getElementById('results');
+    const resultContent = document.getElementById('resultContent');
+    
+    if (!location) {
+        const line = document.createElement('div');
+        line.style.color = '#ff4444';
+        line.textContent = `[${new Date().toLocaleTimeString()}] Error: Please enter coordinates or address`;
+        log.appendChild(line);
+        log.scrollTop = log.scrollHeight;
+        return;
+    }
+
+    log.innerHTML = '';
+    results.style.display = 'none';
+    
+    const line = document.createElement('div');
+    line.style.color = '#88ff88';
+    line.textContent = `[${new Date().toLocaleTimeString()}] Fetching satellite imagery for: ${location}`;
+    log.appendChild(line);
+    log.scrollTop = log.scrollHeight;
+
+    setTimeout(() => {
+        results.style.display = 'block';
+        resultContent.innerHTML = `
+            <div class="result-item">
+                <div class="result-row"><span class="label">Location:</span><span class="value">${location}</span></div>
+                <div class="result-row"><span class="label">Coordinates:</span><span class="value">37.7749° N, 122.4194° W</span></div>
+                <div class="result-row"><span class="label">Satellite:</span><span class="value">Landsat 9</span></div>
+                <div class="result-row"><span class="label">Capture Date:</span><span class="value">2024-06-15 14:32 UTC</span></div>
+                <div class="result-row"><span class="label">Cloud Cover:</span><span class="value">12%</span></div>
+                <div class="result-row"><span class="label">Resolution:</span><span class="value">0.5m</span></div>
+                <div class="result-row"><span class="label">Status:</span><span class="value found">✓ Imagery available</span></div>
+                <div class="satellite-image-placeholder">
+                    <div class="placeholder-icon">🛰</div>
+                    <p>Satellite imagery would appear here</p>
+                    <p class="small">(API integration required for live imagery)</p>
+                </div>
+            </div>
+        `;
+        
+        const complete = document.createElement('div');
+        complete.style.color = '#00ff41';
+        complete.textContent = `[${new Date().toLocaleTimeString()}] ✓ Satellite data retrieved`;
+        log.appendChild(complete);
+        log.scrollTop = log.scrollHeight;
+    }, 2500);
+});
+</script>
+{% endblock %}

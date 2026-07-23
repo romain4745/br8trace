@@ -1,0 +1,247 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="page-header">
+    <h1>&gt; Reputation Score</h1>
+    <div class="header-line">═══════════════════════════════════════════════════════════════════════</div>
+</div>
+
+<div class="investigation-box">
+    <div class="input-group">
+        <input type="text" id="reputationInput" placeholder="Enter email, IP, or domain" />
+        <button id="checkReputation" class="btn-primary">▶ Check Reputation</button>
+    </div>
+</div>
+
+<div id="results" class="results-box" style="display:none">
+    <h2>&gt; Reputation Analysis</h2>
+    <div id="resultContent"></div>
+</div>
+
+<div id="log" class="log"></div>
+
+<style>
+.page-header h1 {
+    color: #00ff41;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin: 0 0 5px 0;
+}
+
+.header-line {
+    color: #1a3a2a;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.investigation-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px 18px;
+    background: #0a140a !important;
+    border: 1px solid #1a3a1a !important;
+    color: #00ff41 !important;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #00ff41 !important;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    background: #003300;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #004400;
+    box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
+}
+
+.results-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.results-box h2 {
+    color: #00ff41;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+}
+
+.log {
+    background: rgba(0, 10, 0, 0.9);
+    border: 1px solid #0a2a0a;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #00ff41;
+    min-height: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.log div {
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(0, 255, 65, 0.05);
+}
+
+.reputation-score {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.score-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #00ff41;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 34, 0, 0.3);
+}
+
+.score-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ff41;
+    font-family: 'Courier New', monospace;
+}
+
+.score-label {
+    font-size: 12px;
+    color: #4a6a5a;
+    text-transform: uppercase;
+}
+
+.score-details {
+    flex: 1;
+}
+
+.score-detail-item {
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(10, 42, 10, 0.3);
+}
+
+.score-detail-item .label {
+    color: #4a6a5a;
+    font-size: 13px;
+    min-width: 120px;
+}
+
+.score-detail-item .value {
+    color: #b0c8b8;
+    font-size: 13px;
+}
+
+.score-good { color: #44ff44; }
+.score-warning { color: #ffaa44; }
+.score-bad { color: #ff4444; }
+</style>
+
+<script>
+document.getElementById('checkReputation').addEventListener('click', function() {
+    const query = document.getElementById('reputationInput').value.trim();
+    const log = document.getElementById('log');
+    const results = document.getElementById('results');
+    const resultContent = document.getElementById('resultContent');
+    
+    if (!query) {
+        const line = document.createElement('div');
+        line.style.color = '#ff4444';
+        line.textContent = `[${new Date().toLocaleTimeString()}] Error: Please enter a target`;
+        log.appendChild(line);
+        log.scrollTop = log.scrollHeight;
+        return;
+    }
+
+    log.innerHTML = '';
+    results.style.display = 'none';
+    
+    const line = document.createElement('div');
+    line.style.color = '#88ff88';
+    line.textContent = `[${new Date().toLocaleTimeString()}] Checking reputation for: ${query}`;
+    log.appendChild(line);
+    log.scrollTop = log.scrollHeight;
+
+    setTimeout(() => {
+        results.style.display = 'block';
+        resultContent.innerHTML = `
+            <div class="reputation-score">
+                <div class="score-circle">
+                    <div class="score-number">78</div>
+                    <div class="score-label">Score</div>
+                </div>
+                <div class="score-details">
+                    <div class="score-detail-item">
+                        <span class="label">Overall Status:</span>
+                        <span class="value score-good">✓ Good</span>
+                    </div>
+                    <div class="score-detail-item">
+                        <span class="label">Spam Reports:</span>
+                        <span class="value score-good">✓ 0</span>
+                    </div>
+                    <div class="score-detail-item">
+                        <span class="label">Compromised:</span>
+                        <span class="value score-good">✓ No</span>
+                    </div>
+                    <div class="score-detail-item">
+                        <span class="label">Blacklist Check:</span>
+                        <span class="value score-good">✓ Clean</span>
+                    </div>
+                    <div class="score-detail-item">
+                        <span class="label">Risk Level:</span>
+                        <span class="value score-warning">⚠ Low</span>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        const complete = document.createElement('div');
+        complete.style.color = '#00ff41';
+        complete.textContent = `[${new Date().toLocaleTimeString()}] ✓ Reputation check complete`;
+        log.appendChild(complete);
+        log.scrollTop = log.scrollHeight;
+    }, 2500);
+});
+</script>
+{% endblock %}

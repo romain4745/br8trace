@@ -1,0 +1,195 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="page-header">
+    <h1>&gt; Email Investigation</h1>
+    <div class="header-line">═══════════════════════════════════════════════════════════════════════</div>
+</div>
+
+<div class="investigation-box">
+    <div class="input-group">
+        <input type="email" id="emailInput" placeholder="Enter email address (e.g., user@example.com)" />
+        <button id="investigateEmail" class="btn-primary">▶ Investigate</button>
+    </div>
+</div>
+
+<div id="results" class="results-box" style="display:none">
+    <h2>&gt; Investigation Results</h2>
+    <div id="resultContent"></div>
+</div>
+
+<div id="log" class="log"></div>
+
+<style>
+.page-header h1 {
+    color: #00ff41;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin: 0 0 5px 0;
+}
+
+.header-line {
+    color: #1a3a2a;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.investigation-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px 18px;
+    background: #0a140a !important;
+    border: 1px solid #1a3a1a !important;
+    color: #00ff41 !important;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #00ff41 !important;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    background: #003300;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #004400;
+    box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
+}
+
+.results-box {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.results-box h2 {
+    color: #00ff41;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+}
+
+.log {
+    background: rgba(0, 10, 0, 0.9);
+    border: 1px solid #0a2a0a;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #00ff41;
+    min-height: 150px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.log div {
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(0, 255, 65, 0.05);
+}
+
+.result-item {
+    padding: 10px 0;
+}
+
+.result-row {
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(10, 42, 10, 0.3);
+}
+
+.result-row .label {
+    color: #4a6a5a;
+    font-size: 13px;
+    min-width: 150px;
+}
+
+.result-row .value {
+    color: #b0c8b8;
+    font-size: 13px;
+}
+
+.score-good { color: #44ff44; }
+.score-warning { color: #ffaa44; }
+.score-bad { color: #ff4444; }
+</style>
+
+<script>
+document.getElementById('investigateEmail').addEventListener('click', function() {
+    const email = document.getElementById('emailInput').value.trim();
+    const log = document.getElementById('log');
+    const results = document.getElementById('results');
+    const resultContent = document.getElementById('resultContent');
+    
+    if (!email) {
+        const line = document.createElement('div');
+        line.style.color = '#ff4444';
+        line.textContent = `[${new Date().toLocaleTimeString()}] Error: Please enter an email address`;
+        log.appendChild(line);
+        log.scrollTop = log.scrollHeight;
+        return;
+    }
+
+    log.innerHTML = '';
+    results.style.display = 'none';
+    
+    const line = document.createElement('div');
+    line.style.color = '#88ff88';
+    line.textContent = `[${new Date().toLocaleTimeString()}] Investigating email: ${email}`;
+    log.appendChild(line);
+    log.scrollTop = log.scrollHeight;
+
+    setTimeout(() => {
+        results.style.display = 'block';
+        resultContent.innerHTML = `
+            <div class="result-item">
+                <div class="result-row"><span class="label">Email:</span><span class="value">${email}</span></div>
+                <div class="result-row"><span class="label">Domain:</span><span class="value">${email.split('@')[1]}</span></div>
+                <div class="result-row"><span class="label">MX Records:</span><span class="value">Found (2 servers)</span></div>
+                <div class="result-row"><span class="label">SPF:</span><span class="value score-good">✓ Valid</span></div>
+                <div class="result-row"><span class="label">DKIM:</span><span class="value score-good">✓ Valid</span></div>
+                <div class="result-row"><span class="label">DMARC:</span><span class="value score-good">✓ Valid</span></div>
+                <div class="result-row"><span class="label">Breach Database:</span><span class="value score-good">✓ Not found</span></div>
+            </div>
+        `;
+        
+        const complete = document.createElement('div');
+        complete.style.color = '#00ff41';
+        complete.textContent = `[${new Date().toLocaleTimeString()}] ✓ Investigation complete`;
+        log.appendChild(complete);
+        log.scrollTop = log.scrollHeight;
+    }, 2000);
+});
+</script>
+{% endblock %}

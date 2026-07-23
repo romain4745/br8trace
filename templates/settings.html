@@ -1,0 +1,353 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="page-header">
+    <h1>&gt; Settings</h1>
+    <div class="header-line">═══════════════════════════════════════════════════════════════════════</div>
+</div>
+
+<div class="settings-grid">
+    <div class="settings-section">
+        <h2>🔐 Security Settings</h2>
+        <div class="setting-item">
+            <label>Session Timeout</label>
+            <select>
+                <option>30 minutes</option>
+                <option selected>60 minutes</option>
+                <option>120 minutes</option>
+                <option>Never</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Two-Factor Authentication</label>
+            <select>
+                <option selected>Disabled</option>
+                <option>Enabled</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>🖥 Interface Settings</h2>
+        <div class="setting-item">
+            <label>Theme</label>
+            <select>
+                <option selected>Dark (Hacker)</option>
+                <option>Light</option>
+                <option>Matrix</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Font Size</label>
+            <select>
+                <option>Small</option>
+                <option selected>Medium</option>
+                <option>Large</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Matrix Animation</label>
+            <select>
+                <option selected>Enabled</option>
+                <option>Disabled</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>📊 Investigation Settings</h2>
+        <div class="setting-item">
+            <label>Default Investigation Type</label>
+            <select>
+                <option>IP Address</option>
+                <option>Email</option>
+                <option selected>Username</option>
+                <option>Phone</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Auto-Save Reports</label>
+            <select>
+                <option selected>Enabled</option>
+                <option>Disabled</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Report Format</label>
+            <select>
+                <option selected>HTML</option>
+                <option>PDF</option>
+                <option>JSON</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>🌐 Network Settings</h2>
+        <div class="setting-item">
+            <label>Proxy Configuration</label>
+            <select>
+                <option selected>None</option>
+                <option>Manual</option>
+                <option>System Proxy</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Timeout (seconds)</label>
+            <input type="number" value="30" min="5" max="120" />
+        </div>
+        <div class="setting-item">
+            <label>Max Concurrent Scans</label>
+            <select>
+                <option>1</option>
+                <option selected>3</option>
+                <option>5</option>
+                <option>10</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>🔔 Notification Settings</h2>
+        <div class="setting-item">
+            <label>Scan Complete Notifications</label>
+            <select>
+                <option selected>Enabled</option>
+                <option>Disabled</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Email Reports</label>
+            <select>
+                <option selected>Disabled</option>
+                <option>Enabled</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>⚙ System Settings</h2>
+        <div class="setting-item">
+            <label>Log Level</label>
+            <select>
+                <option>DEBUG</option>
+                <option selected>INFO</option>
+                <option>WARNING</option>
+                <option>ERROR</option>
+            </select>
+        </div>
+        <div class="setting-item">
+            <label>Cleanup Old Reports</label>
+            <select>
+                <option>Never</option>
+                <option selected>30 days</option>
+                <option>60 days</option>
+                <option>90 days</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="settings-actions">
+    <button class="btn-primary" id="saveSettings">💾 Save Settings</button>
+    <button class="btn-secondary" id="resetSettings">↺ Reset to Default</button>
+</div>
+
+<div id="log" class="log"></div>
+
+<style>
+.page-header h1 {
+    color: #00ff41;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin: 0 0 5px 0;
+}
+
+.header-line {
+    color: #1a3a2a;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.settings-section {
+    background: rgba(0, 17, 0, 0.4);
+    border: 1px solid #0a2a0a;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.settings-section h2 {
+    color: #00ff41;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0a2a0a;
+}
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(10, 42, 10, 0.3);
+}
+
+.setting-item:last-child {
+    border-bottom: none;
+}
+
+.setting-item label {
+    color: #6a8a7a;
+    font-size: 13px;
+}
+
+.setting-item select,
+.setting-item input {
+    background: #0a140a !important;
+    border: 1px solid #1a3a1a !important;
+    color: #00ff41 !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    min-width: 150px;
+}
+
+.setting-item select:focus,
+.setting-item input:focus {
+    outline: none;
+    border-color: #00ff41 !important;
+}
+
+.setting-item input[type="number"] {
+    width: 80px;
+    min-width: auto;
+}
+
+.settings-actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    background: #003300;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #004400;
+    box-shadow: 0 0 30px rgba(0, 255, 65, 0.15);
+}
+
+.btn-secondary {
+    padding: 12px 30px;
+    background: transparent;
+    border: 1px solid #4a6a5a;
+    color: #4a6a5a;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    border-color: #ffaa44;
+    color: #ffaa44;
+}
+
+.log {
+    background: rgba(0, 10, 0, 0.9);
+    border: 1px solid #0a2a0a;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #00ff41;
+    min-height: 80px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.log div {
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(0, 255, 65, 0.05);
+}
+
+@media (max-width: 768px) {
+    .settings-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .setting-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .setting-item select,
+    .setting-item input {
+        width: 100%;
+        min-width: auto;
+    }
+}
+</style>
+
+<script>
+document.getElementById('saveSettings').addEventListener('click', function() {
+    const log = document.getElementById('log');
+    log.innerHTML = '';
+    
+    const line = document.createElement('div');
+    line.style.color = '#88ff88';
+    line.textContent = `[${new Date().toLocaleTimeString()}] Saving settings...`;
+    log.appendChild(line);
+    
+    setTimeout(() => {
+        const complete = document.createElement('div');
+        complete.style.color = '#00ff41';
+        complete.textContent = `[${new Date().toLocaleTimeString()}] ✓ Settings saved successfully`;
+        log.appendChild(complete);
+        log.scrollTop = log.scrollHeight;
+    }, 1000);
+});
+
+document.getElementById('resetSettings').addEventListener('click', function() {
+    const log = document.getElementById('log');
+    log.innerHTML = '';
+    
+    const line = document.createElement('div');
+    line.style.color = '#ffaa44';
+    line.textContent = `[${new Date().toLocaleTimeString()}] Resetting to default settings...`;
+    log.appendChild(line);
+    
+    setTimeout(() => {
+        const complete = document.createElement('div');
+        complete.style.color = '#00ff41';
+        complete.textContent = `[${new Date().toLocaleTimeString()}] ✓ Settings reset to default`;
+        log.appendChild(complete);
+        log.scrollTop = log.scrollHeight;
+    }, 1000);
+});
+</script>
+{% endblock %}
