@@ -8,11 +8,11 @@ if ! command -v gunicorn &> /dev/null; then
     sudo apt install python3-gunicorn -y
 fi
 
-# Run with 0.0.0.0 to allow external access
+# Run with 127.0.0.1 for local access only (default)
 exec gunicorn \
     --workers 4 \
     --threads 2 \
-    --bind 0.0.0.0:5000 \
+    --bind 127.0.0.1:5000 \
     --timeout 120 \
     --reload \
     wsgi:application
