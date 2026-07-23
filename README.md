@@ -52,8 +52,12 @@ BR8Trace is a comprehensive OSINT and satellite imagery analysis framework with 
 ### Installation
 
 ```bash
-cd /path/to/BR8Trace
+cd /path/to/br8trace
 chmod +x setup.sh run.sh
 ./setup.sh
-cp .env.example .env
-# Edit .env with your API keys
+### Running through GLI or CLI
+
+./run.sh # on GLI
+python main.py # on CLI
+
+
